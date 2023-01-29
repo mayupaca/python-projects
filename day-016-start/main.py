@@ -21,6 +21,13 @@
 # # クリックするまで実行されるfunction
 # my_screen.exitonclick()
 
-import prettytable
+from prettytable import PrettyTable
+table = PrettyTable()
+table.add_column("Pokemon Name", ["Pidgey", "Caterpie", "Pichu"])
+table.add_column("Type", ["Flying", "Bug", "Electric"])
+table.align = "l"
+print(table)
+
+
 
 
