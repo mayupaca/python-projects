@@ -27,7 +27,3 @@ table.add_column("Pokemon Name", ["Pidgey", "Caterpie", "Pichu"])
 table.add_column("Type", ["Flying", "Bug", "Electric"])
 table.align = "l"
 print(table)
-
-
-
-
